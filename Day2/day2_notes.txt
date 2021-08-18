@@ -1,0 +1,43 @@
+HTML Element:
+------------
+start tag
+content
+end tag
+
+syntax : <tag_name>Content</tag_name>
+
+Text Formatting:
+------------------------------
+br
+pre- pre-formatted text
+b - bold
+i - italic
+small - smaller text size
+mark - high-lighted
+del - deleted text
+
+q - quotation marks
+address
+bdo - bi-directional override (dir = rtl)
+
+comments:
+------------------
+Syntax : <!-- Description -->
+
+hyperlinks:
+-------------------
+a (href, target = _self, _blank)
+
+Navigate within the page:
+-------------------------
+id
+href = "#id"
+
+
+Types of HTML Elements:
+-----------------------
+
+1) Block Level Elements : h1, p, div..etc
+	-> It will start in a new line
+	-> occupies entire width of the screen
+2) Inline Elements:b,i,small,mark,del,img,a..etc
