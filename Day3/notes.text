@@ -1,0 +1,86 @@
+Images:
+-------------
+img (src, alt)
+
+Buttons:
+------------
+button (type: button, submit, reset)
+
+List:
+1)Ordered List
+
+	1.element1
+	2.element2
+	3.element3
+
+	type:
+		disc
+		circle
+		square
+		none
+
+2)Unordered List
+	
+	.element1
+	.element2
+	.element3
+
+	type:
+		1
+		A
+		a
+		i
+		I
+	start => specifies the starting 
+
+ordered list <ol>
+unordered list <ul>
+list element <li>
+
+
+align:
+	left
+	right
+	center
+
+Table:
+----------
+tr
+th
+td
+caption
+border
+colspan
+
+form element:
+--------------
+To collect data from user
+<form>
+
+<label> : to define a label to form element
+
+<input>:
+------
+type:
+------
+Data types: integer, float, char, boolean(true, false)
+
+name
+value
+place_holder
+
+
+Registration Form:
+-----------------
+first_name
+last_name
+email
+phone_number
+age
+DOB
+branch
+college
+address
+password
+district
+gender
