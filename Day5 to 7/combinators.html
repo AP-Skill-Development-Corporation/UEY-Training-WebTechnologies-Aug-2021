@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>:: Combinators ::</title>
+    <style>
+        div p {
+            background-color: red;
+            color: #fff;
+        }
+        div > p {
+            background-color: mediumorchid;
+        }
+        div + p {
+            background-color: mediumspringgreen;
+        }
+        div ~ p {
+            background-color: yellow;
+            columns: #000;
+        }
+    </style>
+</head>
+<body>
+    
+    <div>
+        <p>This is paragraph1</p>
+        <p>This is paragraph2</p>
+        <aside>
+            <p>This is paragraph3</p>
+            <p>This is paragraph4</p>
+        </aside>
+    </div>
+    <p>This is paragraph5</p>
+    <p>This is paragraph6</p>
+    
+    <div>
+        <p>demo</p>
+    </div>
+    <p>Demo2</p>
+    <p>Demo3</p>
+</body>
+</html>

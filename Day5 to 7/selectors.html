@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>:: Selectors ::</title>
+    <style>
+        /* * {
+            background-color: lightgray;
+        } */
+        h1 {
+            color: #fff;
+        }
+        .info {
+            background-color: lime;
+            border: 1px solid red;
+            width: 20rem;
+            margin-top: 10px;
+        }
+        #card2 {
+            font-size: 20px;
+            background-color: mediumorchid;
+            width: 20rem;
+        }
+        h1, p {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .info,#card2 {
+            font-style: italic;
+        }
+
+        a[title="link1"] {
+            background-color: yellow;
+            font-size: 100px;
+        }
+        a[href="https://www.w3schools.com/"]{
+            font-size: 150px;
+        }
+        .demo::first-line{
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <div class="info "  >
+        <h1> This is frontend workshop</h1>
+        <p>This is paragraph1</p>
+        <h3>This is heading3</h3>
+    </div>
+    
+    <div  id="card2"  >
+        <h1> This is frontend workshop</h1>
+        <p>This is paragraph2</p>
+    </div>
+    <div class="info" >
+        <h1> This is frontend workshop</h1>
+        <p>This is paragraph3</p>
+    </div>
+    <a href="https://www.instagram.com/accounts/login/" title="link1">Instagram login page</a>
+    <a href="https://www.w3schools.com/" title="link2">W3schools</a>
+    <p class="demo">At W3Schools you will find complete references about HTML elements, attributes, events, color names, entities, character-sets, URL encoding, language codes, HTTP messages, browser support, and more:
+        At W3Schools you will find complete references about HTML elements, attributes, events, color names, entities, character-sets, URL encoding, language codes, HTTP messages, browser support, and more:
+    </p>
+    <iframe src="https://www.w3schools.com" title="W3Schools Free Online Web Tutorials">
+    </iframe>
+</body>
+</html>
